@@ -571,45 +571,6 @@ Wire Wire Line
 	5150 7350 5150 7500
 $Comp
 L Device:D_Small D?
-U 1 1 5E568386
-P 1850 2000
-F 0 "D?" V 1900 2250 50  0000 R CNN
-F 1 "D_Small" V 1800 2350 50  0000 R CNN
-F 2 "" V 1850 2000 50  0001 C CNN
-F 3 "~" V 1850 2000 50  0001 C CNN
-	1    1850 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2050 1700 2100 1700
-Wire Wire Line
-	1850 2100 1850 2150
-$Comp
-L Device:D_Small D?
-U 1 1 5E573370
-P 2500 2000
-F 0 "D?" V 2550 2250 50  0000 R CNN
-F 1 "D_Small" V 2450 2350 50  0000 R CNN
-F 2 "" V 2500 2000 50  0001 C CNN
-F 3 "~" V 2500 2000 50  0001 C CNN
-	1    2500 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2700 1700 2750 1700
-Wire Wire Line
-	2750 1700 2750 2450
-Wire Wire Line
-	2750 1700 2750 1400
-Connection ~ 2750 1700
-Wire Wire Line
-	2500 2100 2500 2200
-Wire Wire Line
-	2500 2200 1550 2200
-Wire Wire Line
-	1850 2150 1550 2150
-$Comp
-L Device:D_Small D?
 U 1 1 5E585121
 P 1850 2750
 F 0 "D?" V 1900 3000 50  0000 R CNN
@@ -619,8 +580,6 @@ F 3 "~" V 1850 2750 50  0001 C CNN
 	1    1850 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2100 1700 2100 2450
 $Comp
 L Device:D_Small D?
 U 1 1 5E589F7C
@@ -647,12 +606,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 2950 1550 2950
 Wire Wire Line
-	1850 2900 1550 2900
-Wire Wire Line
-	2100 1700 2100 1400
-Wire Wire Line
 	2100 1400 2750 1400
-Connection ~ 2100 1700
 Connection ~ 2750 1400
 Wire Wire Line
 	2750 1400 2750 1150
@@ -901,28 +855,6 @@ F 3 "" H 1275 2475 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E785DA0
-P 2550 1750
-F 0 "MX?" H 2583 1973 60  0000 C CNN
-F 1 "MX-NoLED" H 2583 1899 20  0000 C CNN
-F 2 "" H 1925 1725 60  0001 C CNN
-F 3 "" H 1925 1725 60  0001 C CNN
-	1    2550 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E78A1A3
-P 1900 1750
-F 0 "MX?" H 1933 1973 60  0000 C CNN
-F 1 "MX-NoLED" H 1933 1899 20  0000 C CNN
-F 2 "" H 1275 1725 60  0001 C CNN
-F 3 "" H 1275 1725 60  0001 C CNN
-	1    1900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E78E40C
 P 1900 3250
 F 0 "MX?" H 1933 3473 60  0000 C CNN
@@ -954,8 +886,6 @@ Connection ~ 2500 3700
 Connection ~ 1850 3650
 Connection ~ 1850 2900
 Connection ~ 2500 2950
-Connection ~ 1850 2150
-Connection ~ 2500 2200
 $Comp
 L Device:D_Small D?
 U 1 1 5E87D083
@@ -971,26 +901,6 @@ Wire Wire Line
 	3350 1700 3400 1700
 Wire Wire Line
 	3150 2100 3150 2150
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D08B
-P 3800 2000
-F 0 "D?" V 3850 2250 50  0000 R CNN
-F 1 "D_Small" V 3750 2350 50  0000 R CNN
-F 2 "" V 3800 2000 50  0001 C CNN
-F 3 "~" V 3800 2000 50  0001 C CNN
-	1    3800 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 1700 4050 1700
-Wire Wire Line
-	4050 1700 4050 2450
-Wire Wire Line
-	4050 1700 4050 1400
-Connection ~ 4050 1700
-Wire Wire Line
-	3800 2100 3800 2200
 $Comp
 L Device:D_Small D?
 U 1 1 5E87D098
@@ -1019,8 +929,6 @@ Wire Wire Line
 	3350 2450 3400 2450
 Connection ~ 3400 2450
 Wire Wire Line
-	3400 2450 3400 3200
-Wire Wire Line
 	4000 2450 4050 2450
 Connection ~ 4050 2450
 Wire Wire Line
@@ -1037,94 +945,6 @@ Wire Wire Line
 	4050 1400 4050 1150
 $Comp
 L Device:D_Small D?
-U 1 1 5E87D0B3
-P 3150 3500
-F 0 "D?" V 3200 3750 50  0000 R CNN
-F 1 "D_Small" V 3100 3850 50  0000 R CNN
-F 2 "" V 3150 3500 50  0001 C CNN
-F 3 "~" V 3150 3500 50  0001 C CNN
-	1    3150 3500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 3200 3400 3200
-Connection ~ 3400 3200
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0BB
-P 3800 3500
-F 0 "D?" V 3850 3750 50  0000 R CNN
-F 1 "D_Small" V 3750 3850 50  0000 R CNN
-F 2 "" V 3800 3500 50  0001 C CNN
-F 3 "~" V 3800 3500 50  0001 C CNN
-	1    3800 3500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3150 3600 3150 3650
-Wire Wire Line
-	3800 3600 3800 3700
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0C3
-P 3150 4250
-F 0 "D?" V 3200 4500 50  0000 R CNN
-F 1 "D_Small" V 3100 4600 50  0000 R CNN
-F 2 "" V 3150 4250 50  0001 C CNN
-F 3 "~" V 3150 4250 50  0001 C CNN
-	1    3150 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0C9
-P 3800 4250
-F 0 "D?" V 3850 4500 50  0000 R CNN
-F 1 "D_Small" V 3750 4600 50  0000 R CNN
-F 2 "" V 3800 4250 50  0001 C CNN
-F 3 "~" V 3800 4250 50  0001 C CNN
-	1    3800 4250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3150 4350 3150 4400
-Wire Wire Line
-	3800 4350 3800 4450
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0D2
-P 3150 5000
-F 0 "D?" V 3200 5250 50  0000 R CNN
-F 1 "D_Small" V 3100 5350 50  0000 R CNN
-F 2 "" V 3150 5000 50  0001 C CNN
-F 3 "~" V 3150 5000 50  0001 C CNN
-	1    3150 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 4700 3400 4700
-Connection ~ 3400 4700
-Wire Wire Line
-	3150 5100 3150 5150
-Wire Wire Line
-	4050 2450 4050 3200
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0DD
-P 3800 5000
-F 0 "D?" V 3850 5250 50  0000 R CNN
-F 1 "D_Small" V 3750 5350 50  0000 R CNN
-F 2 "" V 3800 5000 50  0001 C CNN
-F 3 "~" V 3800 5000 50  0001 C CNN
-	1    3800 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 4700 4050 4700
-Wire Wire Line
-	3800 5100 3800 5200
-$Comp
-L Device:D_Small D?
 U 1 1 5E87D0E6
 P 3150 5750
 F 0 "D?" V 3200 6000 50  0000 R CNN
@@ -1136,25 +956,6 @@ F 3 "~" V 3150 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 5850 3150 5900
-Wire Wire Line
-	3400 4700 3400 5450
-$Comp
-L Device:D_Small D?
-U 1 1 5E87D0EF
-P 3800 5750
-F 0 "D?" V 3850 6000 50  0000 R CNN
-F 1 "D_Small" V 3750 6100 50  0000 R CNN
-F 2 "" V 3800 5750 50  0001 C CNN
-F 3 "~" V 3800 5750 50  0001 C CNN
-	1    3800 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 5450 4050 5450
-Wire Wire Line
-	3800 5850 3800 5950
-Wire Wire Line
-	3400 3200 3400 3950
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E87D0F9
@@ -1170,82 +971,6 @@ Wire Wire Line
 	3400 5450 3350 5450
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D100
-P 3850 5500
-F 0 "MX?" H 3883 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 3883 5649 20  0000 C CNN
-F 2 "" H 3225 5475 60  0001 C CNN
-F 3 "" H 3225 5475 60  0001 C CNN
-	1    3850 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D106
-P 3850 4750
-F 0 "MX?" H 3883 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 3883 4899 20  0000 C CNN
-F 2 "" H 3225 4725 60  0001 C CNN
-F 3 "" H 3225 4725 60  0001 C CNN
-	1    3850 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D10C
-P 3200 4750
-F 0 "MX?" H 3233 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 3233 4899 20  0000 C CNN
-F 2 "" H 2575 4725 60  0001 C CNN
-F 3 "" H 2575 4725 60  0001 C CNN
-	1    3200 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D112
-P 3200 4000
-F 0 "MX?" H 3233 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 3233 4149 20  0000 C CNN
-F 2 "" H 2575 3975 60  0001 C CNN
-F 3 "" H 2575 3975 60  0001 C CNN
-	1    3200 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 3950 3400 3950
-Connection ~ 3400 3950
-Wire Wire Line
-	3400 3950 3400 4700
-Wire Wire Line
-	4000 3200 4050 3200
-Connection ~ 4050 3200
-Wire Wire Line
-	4050 3200 4050 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D11E
-P 3850 4000
-F 0 "MX?" H 3883 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 3883 4149 20  0000 C CNN
-F 2 "" H 3225 3975 60  0001 C CNN
-F 3 "" H 3225 3975 60  0001 C CNN
-	1    3850 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D124
-P 3850 3250
-F 0 "MX?" H 3883 3473 60  0000 C CNN
-F 1 "MX-NoLED" H 3883 3399 20  0000 C CNN
-F 2 "" H 3225 3225 60  0001 C CNN
-F 3 "" H 3225 3225 60  0001 C CNN
-	1    3850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E87D12B
 P 3850 2500
 F 0 "MX?" H 3883 2723 60  0000 C CNN
@@ -1253,28 +978,6 @@ F 1 "MX-NoLED" H 3883 2649 20  0000 C CNN
 F 2 "" H 3225 2475 60  0001 C CNN
 F 3 "" H 3225 2475 60  0001 C CNN
 	1    3850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D131
-P 3200 2500
-F 0 "MX?" H 3233 2723 60  0000 C CNN
-F 1 "MX-NoLED" H 3233 2649 20  0000 C CNN
-F 2 "" H 2575 2475 60  0001 C CNN
-F 3 "" H 2575 2475 60  0001 C CNN
-	1    3200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D137
-P 3850 1750
-F 0 "MX?" H 3883 1973 60  0000 C CNN
-F 1 "MX-NoLED" H 3883 1899 20  0000 C CNN
-F 2 "" H 3225 1725 60  0001 C CNN
-F 3 "" H 3225 1725 60  0001 C CNN
-	1    3850 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1288,61 +991,16 @@ F 3 "" H 2575 1725 60  0001 C CNN
 	1    3200 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E87D143
-P 3200 3250
-F 0 "MX?" H 3233 3473 60  0000 C CNN
-F 1 "MX-NoLED" H 3233 3399 20  0000 C CNN
-F 2 "" H 2575 3225 60  0001 C CNN
-F 3 "" H 2575 3225 60  0001 C CNN
-	1    3200 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 4700 4050 5450
-Connection ~ 4050 4700
-Wire Wire Line
-	4000 3950 4050 3950
-Connection ~ 4050 3950
-Wire Wire Line
-	4050 3950 4050 4700
 Connection ~ 3150 5900
-Connection ~ 3800 5950
-Connection ~ 3150 5150
-Connection ~ 3800 5200
-Connection ~ 3150 4400
-Connection ~ 3800 4450
-Connection ~ 3800 3700
-Connection ~ 3150 3650
 Connection ~ 3150 2900
 Connection ~ 3800 2950
 Connection ~ 3150 2150
-Connection ~ 3800 2200
 Wire Wire Line
 	1850 5900 3150 5900
-Wire Wire Line
-	2500 5950 3800 5950
-Wire Wire Line
-	1850 5150 3150 5150
-Wire Wire Line
-	2500 5200 3800 5200
-Wire Wire Line
-	1850 4400 3150 4400
-Wire Wire Line
-	2500 4450 3800 4450
-Wire Wire Line
-	2500 3700 3800 3700
-Wire Wire Line
-	1850 3650 3150 3650
 Wire Wire Line
 	1850 2900 3150 2900
 Wire Wire Line
 	2500 2950 3800 2950
-Wire Wire Line
-	1850 2150 3150 2150
-Wire Wire Line
-	2500 2200 3800 2200
 $Comp
 L Device:D_Small D?
 U 1 1 5E898F0F
@@ -1477,22 +1135,6 @@ Wire Wire Line
 	4450 4350 4450 4400
 Wire Wire Line
 	5100 4350 5100 4450
-$Comp
-L Device:D_Small D?
-U 1 1 5E898F5E
-P 4450 5000
-F 0 "D?" V 4500 5250 50  0000 R CNN
-F 1 "D_Small" V 4400 5350 50  0000 R CNN
-F 2 "" V 4450 5000 50  0001 C CNN
-F 3 "~" V 4450 5000 50  0001 C CNN
-	1    4450 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4650 4700 4700 4700
-Connection ~ 4700 4700
-Wire Wire Line
-	4450 5100 4450 5150
 Wire Wire Line
 	5350 2450 5350 3200
 $Comp
@@ -1523,8 +1165,6 @@ F 3 "~" V 4450 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4450 5850 4450 5900
-Wire Wire Line
-	4700 4700 4700 5450
 $Comp
 L Device:D_Small D?
 U 1 1 5E898F7B
@@ -1579,17 +1219,6 @@ F 3 "" H 4525 4725 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E898F98
-P 4500 4750
-F 0 "MX?" H 4533 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 4533 4899 20  0000 C CNN
-F 2 "" H 3875 4725 60  0001 C CNN
-F 3 "" H 3875 4725 60  0001 C CNN
-	1    4500 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E898F9E
 P 4500 4000
 F 0 "MX?" H 4533 4223 60  0000 C CNN
@@ -1602,8 +1231,6 @@ $EndComp
 Wire Wire Line
 	4650 3950 4700 3950
 Connection ~ 4700 3950
-Wire Wire Line
-	4700 3950 4700 4700
 Wire Wire Line
 	5300 3200 5350 3200
 Connection ~ 5350 3200
@@ -1696,7 +1323,6 @@ Wire Wire Line
 	5350 3950 5350 4700
 Connection ~ 4450 5900
 Connection ~ 5100 5950
-Connection ~ 4450 5150
 Connection ~ 5100 5200
 Connection ~ 4450 4400
 Connection ~ 5100 4450
@@ -1709,27 +1335,11 @@ Connection ~ 5100 2200
 Wire Wire Line
 	3150 5900 4450 5900
 Wire Wire Line
-	3800 5950 5100 5950
-Wire Wire Line
-	3150 5150 4450 5150
-Wire Wire Line
-	3800 5200 5100 5200
-Wire Wire Line
-	3150 4400 4450 4400
-Wire Wire Line
-	3800 4450 5100 4450
-Wire Wire Line
-	3800 3700 5100 3700
-Wire Wire Line
-	3150 3650 4450 3650
-Wire Wire Line
 	3150 2900 4450 2900
 Wire Wire Line
 	3800 2950 5100 2950
 Wire Wire Line
 	3150 2150 4450 2150
-Wire Wire Line
-	3800 2200 5100 2200
 $Comp
 L Device:D_Small D?
 U 1 1 5E8AE4D4
@@ -1877,7 +1487,6 @@ F 3 "~" V 5750 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 4700 6000 4700
-Connection ~ 6000 4700
 Wire Wire Line
 	5750 5100 5750 5150
 Wire Wire Line
@@ -1897,62 +1506,8 @@ Wire Wire Line
 	6600 4700 6650 4700
 Wire Wire Line
 	6400 5100 6400 5200
-$Comp
-L Device:D_Small D?
-U 1 1 5E8AE537
-P 5750 5750
-F 0 "D?" V 5800 6000 50  0000 R CNN
-F 1 "D_Small" V 5700 6100 50  0000 R CNN
-F 2 "" V 5750 5750 50  0001 C CNN
-F 3 "~" V 5750 5750 50  0001 C CNN
-	1    5750 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5750 5850 5750 5900
-Wire Wire Line
-	6000 4700 6000 5450
-$Comp
-L Device:D_Small D?
-U 1 1 5E8AE540
-P 6400 5750
-F 0 "D?" V 6450 6000 50  0000 R CNN
-F 1 "D_Small" V 6350 6100 50  0000 R CNN
-F 2 "" V 6400 5750 50  0001 C CNN
-F 3 "~" V 6400 5750 50  0001 C CNN
-	1    6400 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6600 5450 6650 5450
-Wire Wire Line
-	6400 5850 6400 5950
 Wire Wire Line
 	6000 3200 6000 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E8AE54A
-P 5800 5500
-F 0 "MX?" H 5833 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 5833 5649 20  0000 C CNN
-F 2 "" H 5175 5475 60  0001 C CNN
-F 3 "" H 5175 5475 60  0001 C CNN
-	1    5800 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 5450 5950 5450
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E8AE551
-P 6450 5500
-F 0 "MX?" H 6483 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 6483 5649 20  0000 C CNN
-F 2 "" H 5825 5475 60  0001 C CNN
-F 3 "" H 5825 5475 60  0001 C CNN
-	1    6450 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E8AE557
@@ -2074,15 +1629,10 @@ F 3 "" H 5175 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 4700 6650 5450
-Connection ~ 6650 4700
-Wire Wire Line
 	6600 3950 6650 3950
 Connection ~ 6650 3950
 Wire Wire Line
 	6650 3950 6650 4700
-Connection ~ 5750 5900
-Connection ~ 6400 5950
 Connection ~ 5750 5150
 Connection ~ 6400 5200
 Connection ~ 5750 4400
@@ -2093,12 +1643,6 @@ Connection ~ 5750 2900
 Connection ~ 6400 2950
 Connection ~ 5750 2150
 Connection ~ 6400 2200
-Wire Wire Line
-	4450 5900 5750 5900
-Wire Wire Line
-	5100 5950 6400 5950
-Wire Wire Line
-	4450 5150 5750 5150
 Wire Wire Line
 	5100 5200 6400 5200
 Wire Wire Line
@@ -2264,7 +1808,6 @@ F 3 "~" V 7050 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 4700 7300 4700
-Connection ~ 7300 4700
 Wire Wire Line
 	7050 5100 7050 5150
 Wire Wire Line
@@ -2286,21 +1829,6 @@ Wire Wire Line
 	7700 5100 7700 5200
 $Comp
 L Device:D_Small D?
-U 1 1 5E8CBABF
-P 7050 5750
-F 0 "D?" V 7100 6000 50  0000 R CNN
-F 1 "D_Small" V 7000 6100 50  0000 R CNN
-F 2 "" V 7050 5750 50  0001 C CNN
-F 3 "~" V 7050 5750 50  0001 C CNN
-	1    7050 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7050 5850 7050 5900
-Wire Wire Line
-	7300 4700 7300 5450
-$Comp
-L Device:D_Small D?
 U 1 1 5E8CBAC8
 P 7700 5750
 F 0 "D?" V 7750 6000 50  0000 R CNN
@@ -2316,19 +1844,6 @@ Wire Wire Line
 	7700 5850 7700 5950
 Wire Wire Line
 	7300 3200 7300 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E8CBAD2
-P 7100 5500
-F 0 "MX?" H 7133 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 7133 5649 20  0000 C CNN
-F 2 "" H 6475 5475 60  0001 C CNN
-F 3 "" H 6475 5475 60  0001 C CNN
-	1    7100 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5450 7250 5450
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E8CBAD9
@@ -2468,7 +1983,6 @@ Wire Wire Line
 Connection ~ 7950 3950
 Wire Wire Line
 	7950 3950 7950 4700
-Connection ~ 7050 5900
 Connection ~ 7700 5950
 Connection ~ 7050 5150
 Connection ~ 7700 5200
@@ -2480,10 +1994,6 @@ Connection ~ 7050 2900
 Connection ~ 7700 2950
 Connection ~ 7050 2150
 Connection ~ 7700 2200
-Wire Wire Line
-	5750 5900 7050 5900
-Wire Wire Line
-	6400 5950 7700 5950
 Wire Wire Line
 	5750 5150 7050 5150
 Wire Wire Line
@@ -2651,7 +2161,6 @@ F 3 "~" V 8350 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 4700 8600 4700
-Connection ~ 8600 4700
 Wire Wire Line
 	8350 5100 8350 5150
 Wire Wire Line
@@ -2671,62 +2180,8 @@ Wire Wire Line
 	9200 4700 9250 4700
 Wire Wire Line
 	9000 5100 9000 5200
-$Comp
-L Device:D_Small D?
-U 1 1 5E8EA36D
-P 8350 5750
-F 0 "D?" V 8400 6000 50  0000 R CNN
-F 1 "D_Small" V 8300 6100 50  0000 R CNN
-F 2 "" V 8350 5750 50  0001 C CNN
-F 3 "~" V 8350 5750 50  0001 C CNN
-	1    8350 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8350 5850 8350 5900
-Wire Wire Line
-	8600 4700 8600 5450
-$Comp
-L Device:D_Small D?
-U 1 1 5E8EA376
-P 9000 5750
-F 0 "D?" V 9050 6000 50  0000 R CNN
-F 1 "D_Small" V 8950 6100 50  0000 R CNN
-F 2 "" V 9000 5750 50  0001 C CNN
-F 3 "~" V 9000 5750 50  0001 C CNN
-	1    9000 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9200 5450 9250 5450
-Wire Wire Line
-	9000 5850 9000 5950
 Wire Wire Line
 	8600 3200 8600 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E8EA380
-P 8400 5500
-F 0 "MX?" H 8433 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 8433 5649 20  0000 C CNN
-F 2 "" H 7775 5475 60  0001 C CNN
-F 3 "" H 7775 5475 60  0001 C CNN
-	1    8400 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 5450 8550 5450
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E8EA387
-P 9050 5500
-F 0 "MX?" H 9083 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 9083 5649 20  0000 C CNN
-F 2 "" H 8425 5475 60  0001 C CNN
-F 3 "" H 8425 5475 60  0001 C CNN
-	1    9050 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E8EA38D
@@ -2848,15 +2303,10 @@ F 3 "" H 7775 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 4700 9250 5450
-Connection ~ 9250 4700
-Wire Wire Line
 	9200 3950 9250 3950
 Connection ~ 9250 3950
 Wire Wire Line
 	9250 3950 9250 4700
-Connection ~ 8350 5900
-Connection ~ 9000 5950
 Connection ~ 8350 5150
 Connection ~ 9000 5200
 Connection ~ 8350 4400
@@ -2867,10 +2317,6 @@ Connection ~ 8350 2900
 Connection ~ 9000 2950
 Connection ~ 8350 2150
 Connection ~ 9000 2200
-Wire Wire Line
-	7050 5900 8350 5900
-Wire Wire Line
-	7700 5950 9000 5950
 Wire Wire Line
 	7050 5150 8350 5150
 Wire Wire Line
@@ -2891,21 +2337,6 @@ Wire Wire Line
 	7050 2150 8350 2150
 Wire Wire Line
 	7700 2200 9000 2200
-$Comp
-L Device:D_Small D?
-U 1 1 5E911FD3
-P 9650 2000
-F 0 "D?" V 9700 2250 50  0000 R CNN
-F 1 "D_Small" V 9600 2350 50  0000 R CNN
-F 2 "" V 9650 2000 50  0001 C CNN
-F 3 "~" V 9650 2000 50  0001 C CNN
-	1    9650 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9850 1700 9900 1700
-Wire Wire Line
-	9650 2100 9650 2150
 $Comp
 L Device:D_Small D?
 U 1 1 5E911FDB
@@ -2937,8 +2368,6 @@ F 3 "~" V 9650 2750 50  0001 C CNN
 	1    9650 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9900 1700 9900 2450
 $Comp
 L Device:D_Small D?
 U 1 1 5E911FEF
@@ -2963,10 +2392,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 2850 10300 2950
 Wire Wire Line
-	9900 1700 9900 1400
-Wire Wire Line
 	9900 1400 10550 1400
-Connection ~ 9900 1700
 Connection ~ 10550 1400
 Wire Wire Line
 	10550 1400 10550 1150
@@ -3073,21 +2499,6 @@ Wire Wire Line
 	9650 5850 9650 5900
 Wire Wire Line
 	9900 4700 9900 5450
-$Comp
-L Device:D_Small D?
-U 1 1 5E91203F
-P 10300 5750
-F 0 "D?" V 10350 6000 50  0000 R CNN
-F 1 "D_Small" V 10250 6100 50  0000 R CNN
-F 2 "" V 10300 5750 50  0001 C CNN
-F 3 "~" V 10300 5750 50  0001 C CNN
-	1    10300 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10500 5450 10550 5450
-Wire Wire Line
-	10300 5850 10300 5950
 Wire Wire Line
 	9900 3200 9900 3950
 $Comp
@@ -3103,17 +2514,6 @@ F 3 "" H 9075 5475 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 5450 9850 5450
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E912050
-P 10350 5500
-F 0 "MX?" H 10383 5723 60  0000 C CNN
-F 1 "MX-NoLED" H 10383 5649 20  0000 C CNN
-F 2 "" H 9725 5475 60  0001 C CNN
-F 3 "" H 9725 5475 60  0001 C CNN
-	1    10350 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E912056
@@ -3214,17 +2614,6 @@ F 3 "" H 9725 1725 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E91208D
-P 9700 1750
-F 0 "MX?" H 9733 1973 60  0000 C CNN
-F 1 "MX-NoLED" H 9733 1899 20  0000 C CNN
-F 2 "" H 9075 1725 60  0001 C CNN
-F 3 "" H 9075 1725 60  0001 C CNN
-	1    9700 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E912093
 P 9700 3250
 F 0 "MX?" H 9733 3473 60  0000 C CNN
@@ -3235,29 +2624,19 @@ F 3 "" H 9075 3225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10550 4700 10550 5450
-Connection ~ 10550 4700
-Wire Wire Line
 	10500 3950 10550 3950
 Connection ~ 10550 3950
 Wire Wire Line
 	10550 3950 10550 4700
 Connection ~ 9650 5900
-Connection ~ 10300 5950
 Connection ~ 9650 5150
 Connection ~ 10300 5200
 Connection ~ 9650 4400
-Connection ~ 10300 4450
 Connection ~ 10300 3700
 Connection ~ 9650 3650
 Connection ~ 9650 2900
 Connection ~ 10300 2950
-Connection ~ 9650 2150
 Connection ~ 10300 2200
-Wire Wire Line
-	8350 5900 9650 5900
-Wire Wire Line
-	9000 5950 10300 5950
 Wire Wire Line
 	8350 5150 9650 5150
 Wire Wire Line
@@ -3274,8 +2653,6 @@ Wire Wire Line
 	8350 2900 9650 2900
 Wire Wire Line
 	9000 2950 10300 2950
-Wire Wire Line
-	8350 2150 9650 2150
 Wire Wire Line
 	9000 2200 10300 2200
 $Comp
@@ -3307,8 +2684,6 @@ $EndComp
 Wire Wire Line
 	11800 1700 11850 1700
 Wire Wire Line
-	11850 1700 11850 2450
-Wire Wire Line
 	11850 1700 11850 1400
 Connection ~ 11850 1700
 Wire Wire Line
@@ -3326,29 +2701,13 @@ F 3 "~" V 10950 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11200 1700 11200 2450
-$Comp
-L Device:D_Small D?
-U 1 1 5E9402C4
-P 11600 2750
-F 0 "D?" V 11650 3000 50  0000 R CNN
-F 1 "D_Small" V 11550 3100 50  0000 R CNN
-F 2 "" V 11600 2750 50  0001 C CNN
-F 3 "~" V 11600 2750 50  0001 C CNN
-	1    11600 2750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	11150 2450 11200 2450
 Connection ~ 11200 2450
 Wire Wire Line
 	11200 2450 11200 3200
 Wire Wire Line
-	11800 2450 11850 2450
-Connection ~ 11850 2450
-Wire Wire Line
 	10950 2850 10950 2900
-Wire Wire Line
-	11600 2850 11600 2950
 Wire Wire Line
 	11200 1700 11200 1400
 Wire Wire Line
@@ -3397,21 +2756,8 @@ F 3 "~" V 10950 4250 50  0001 C CNN
 	1    10950 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5E9402EE
-P 11600 4250
-F 0 "D?" V 11650 4500 50  0000 R CNN
-F 1 "D_Small" V 11550 4600 50  0000 R CNN
-F 2 "" V 11600 4250 50  0001 C CNN
-F 3 "~" V 11600 4250 50  0001 C CNN
-	1    11600 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10950 4350 10950 4400
-Wire Wire Line
-	11600 4350 11600 4450
 $Comp
 L Device:D_Small D?
 U 1 1 5E9402F7
@@ -3428,8 +2774,6 @@ Wire Wire Line
 Connection ~ 11200 4700
 Wire Wire Line
 	10950 5100 10950 5150
-Wire Wire Line
-	11850 2450 11850 3200
 $Comp
 L Device:D_Small D?
 U 1 1 5E940302
@@ -3542,19 +2886,6 @@ Wire Wire Line
 Wire Wire Line
 	11800 3200 11850 3200
 Connection ~ 11850 3200
-Wire Wire Line
-	11850 3200 11850 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E940343
-P 11650 4000
-F 0 "MX?" H 11683 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 11683 4149 20  0000 C CNN
-F 2 "" H 11025 3975 60  0001 C CNN
-F 3 "" H 11025 3975 60  0001 C CNN
-	1    11650 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E940349
@@ -3564,17 +2895,6 @@ F 1 "MX-NoLED" H 11683 3399 20  0000 C CNN
 F 2 "" H 11025 3225 60  0001 C CNN
 F 3 "" H 11025 3225 60  0001 C CNN
 	1    11650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E940350
-P 11650 2500
-F 0 "MX?" H 11683 2723 60  0000 C CNN
-F 1 "MX-NoLED" H 11683 2649 20  0000 C CNN
-F 2 "" H 11025 2475 60  0001 C CNN
-F 3 "" H 11025 2475 60  0001 C CNN
-	1    11650 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3624,27 +2944,17 @@ $EndComp
 Wire Wire Line
 	11850 4700 11850 5450
 Connection ~ 11850 4700
-Wire Wire Line
-	11800 3950 11850 3950
-Connection ~ 11850 3950
-Wire Wire Line
-	11850 3950 11850 4700
 Connection ~ 10950 5900
 Connection ~ 11600 5950
 Connection ~ 10950 5150
-Connection ~ 11600 5200
 Connection ~ 10950 4400
-Connection ~ 11600 4450
 Connection ~ 11600 3700
 Connection ~ 10950 3650
 Connection ~ 10950 2900
-Connection ~ 11600 2950
 Connection ~ 10950 2150
 Connection ~ 11600 2200
 Wire Wire Line
 	9650 5900 10950 5900
-Wire Wire Line
-	10300 5950 11600 5950
 Wire Wire Line
 	9650 5150 10950 5150
 Wire Wire Line
@@ -3652,17 +2962,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 4400 10950 4400
 Wire Wire Line
-	10300 4450 11600 4450
-Wire Wire Line
 	10300 3700 11600 3700
 Wire Wire Line
 	9650 3650 10950 3650
 Wire Wire Line
 	9650 2900 10950 2900
-Wire Wire Line
-	10300 2950 11600 2950
-Wire Wire Line
-	9650 2150 10950 2150
 Wire Wire Line
 	10300 2200 11600 2200
 $Comp
@@ -3784,54 +3088,10 @@ F 3 "~" V 12250 4250 50  0001 C CNN
 	1    12250 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5E9772DB
-P 12900 4250
-F 0 "D?" V 12950 4500 50  0000 R CNN
-F 1 "D_Small" V 12850 4600 50  0000 R CNN
-F 2 "" V 12900 4250 50  0001 C CNN
-F 3 "~" V 12900 4250 50  0001 C CNN
-	1    12900 4250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	12250 4350 12250 4400
 Wire Wire Line
-	12900 4350 12900 4450
-$Comp
-L Device:D_Small D?
-U 1 1 5E9772E4
-P 12250 5000
-F 0 "D?" V 12300 5250 50  0000 R CNN
-F 1 "D_Small" V 12200 5350 50  0000 R CNN
-F 2 "" V 12250 5000 50  0001 C CNN
-F 3 "~" V 12250 5000 50  0001 C CNN
-	1    12250 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12450 4700 12500 4700
-Connection ~ 12500 4700
-Wire Wire Line
-	12250 5100 12250 5150
-Wire Wire Line
 	13150 2450 13150 3200
-$Comp
-L Device:D_Small D?
-U 1 1 5E9772EF
-P 12900 5000
-F 0 "D?" V 12950 5250 50  0000 R CNN
-F 1 "D_Small" V 12850 5350 50  0000 R CNN
-F 2 "" V 12900 5000 50  0001 C CNN
-F 3 "~" V 12900 5000 50  0001 C CNN
-	1    12900 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13100 4700 13150 4700
-Wire Wire Line
-	12900 5100 12900 5200
 $Comp
 L Device:D_Small D?
 U 1 1 5E9772F8
@@ -3845,8 +3105,6 @@ F 3 "~" V 12250 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12250 5850 12250 5900
-Wire Wire Line
-	12500 4700 12500 5450
 $Comp
 L Device:D_Small D?
 U 1 1 5E977301
@@ -3890,28 +3148,6 @@ F 3 "" H 12325 5475 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E977318
-P 12950 4750
-F 0 "MX?" H 12983 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 12983 4899 20  0000 C CNN
-F 2 "" H 12325 4725 60  0001 C CNN
-F 3 "" H 12325 4725 60  0001 C CNN
-	1    12950 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E97731E
-P 12300 4750
-F 0 "MX?" H 12333 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 12333 4899 20  0000 C CNN
-F 2 "" H 11675 4725 60  0001 C CNN
-F 3 "" H 11675 4725 60  0001 C CNN
-	1    12300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E977324
 P 12300 4000
 F 0 "MX?" H 12333 4223 60  0000 C CNN
@@ -3925,23 +3161,8 @@ Wire Wire Line
 	12450 3950 12500 3950
 Connection ~ 12500 3950
 Wire Wire Line
-	12500 3950 12500 4700
-Wire Wire Line
 	13100 3200 13150 3200
 Connection ~ 13150 3200
-Wire Wire Line
-	13150 3200 13150 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E977330
-P 12950 4000
-F 0 "MX?" H 12983 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 12983 4149 20  0000 C CNN
-F 2 "" H 12325 3975 60  0001 C CNN
-F 3 "" H 12325 3975 60  0001 C CNN
-	1    12950 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E977336
@@ -4008,20 +3229,9 @@ F 3 "" H 11675 3225 60  0001 C CNN
 	1    12300 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13150 4700 13150 5450
-Connection ~ 13150 4700
-Wire Wire Line
-	13100 3950 13150 3950
-Connection ~ 13150 3950
-Wire Wire Line
-	13150 3950 13150 4700
 Connection ~ 12250 5900
 Connection ~ 12900 5950
-Connection ~ 12250 5150
-Connection ~ 12900 5200
 Connection ~ 12250 4400
-Connection ~ 12900 4450
 Connection ~ 12900 3700
 Connection ~ 12250 3650
 Connection ~ 12250 2900
@@ -4033,21 +3243,13 @@ Wire Wire Line
 Wire Wire Line
 	11600 5950 12900 5950
 Wire Wire Line
-	10950 5150 12250 5150
-Wire Wire Line
-	11600 5200 12900 5200
-Wire Wire Line
 	10950 4400 12250 4400
-Wire Wire Line
-	11600 4450 12900 4450
 Wire Wire Line
 	11600 3700 12900 3700
 Wire Wire Line
 	10950 3650 12250 3650
 Wire Wire Line
 	10950 2900 12250 2900
-Wire Wire Line
-	11600 2950 12900 2950
 Wire Wire Line
 	10950 2150 12250 2150
 Wire Wire Line
@@ -4162,32 +3364,6 @@ Wire Wire Line
 	14200 3600 14200 3700
 $Comp
 L Device:D_Small D?
-U 1 1 5E9B52E2
-P 13550 4250
-F 0 "D?" V 13600 4500 50  0000 R CNN
-F 1 "D_Small" V 13500 4600 50  0000 R CNN
-F 2 "" V 13550 4250 50  0001 C CNN
-F 3 "~" V 13550 4250 50  0001 C CNN
-	1    13550 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5E9B52E8
-P 14200 4250
-F 0 "D?" V 14250 4500 50  0000 R CNN
-F 1 "D_Small" V 14150 4600 50  0000 R CNN
-F 2 "" V 14200 4250 50  0001 C CNN
-F 3 "~" V 14200 4250 50  0001 C CNN
-	1    14200 4250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13550 4350 13550 4400
-Wire Wire Line
-	14200 4350 14200 4450
-$Comp
-L Device:D_Small D?
 U 1 1 5E9B52F1
 P 13550 5000
 F 0 "D?" V 13600 5250 50  0000 R CNN
@@ -4204,21 +3380,6 @@ Wire Wire Line
 	13550 5100 13550 5150
 Wire Wire Line
 	14450 2450 14450 3200
-$Comp
-L Device:D_Small D?
-U 1 1 5E9B52FC
-P 14200 5000
-F 0 "D?" V 14250 5250 50  0000 R CNN
-F 1 "D_Small" V 14150 5350 50  0000 R CNN
-F 2 "" V 14200 5000 50  0001 C CNN
-F 3 "~" V 14200 5000 50  0001 C CNN
-	1    14200 5000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14400 4700 14450 4700
-Wire Wire Line
-	14200 5100 14200 5200
 $Comp
 L Device:D_Small D?
 U 1 1 5E9B5305
@@ -4249,8 +3410,6 @@ Wire Wire Line
 	14400 5450 14450 5450
 Wire Wire Line
 	14200 5850 14200 5950
-Wire Wire Line
-	13800 3200 13800 3950
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9B5318
@@ -4277,17 +3436,6 @@ F 3 "" H 13625 5475 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E9B5325
-P 14250 4750
-F 0 "MX?" H 14283 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 14283 4899 20  0000 C CNN
-F 2 "" H 13625 4725 60  0001 C CNN
-F 3 "" H 13625 4725 60  0001 C CNN
-	1    14250 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9B532B
 P 13600 4750
 F 0 "MX?" H 13633 4973 60  0000 C CNN
@@ -4297,38 +3445,9 @@ F 3 "" H 12975 4725 60  0001 C CNN
 	1    13600 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E9B5331
-P 13600 4000
-F 0 "MX?" H 13633 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 13633 4149 20  0000 C CNN
-F 2 "" H 12975 3975 60  0001 C CNN
-F 3 "" H 12975 3975 60  0001 C CNN
-	1    13600 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13750 3950 13800 3950
-Connection ~ 13800 3950
-Wire Wire Line
-	13800 3950 13800 4700
 Wire Wire Line
 	14400 3200 14450 3200
 Connection ~ 14450 3200
-Wire Wire Line
-	14450 3200 14450 3950
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5E9B533D
-P 14250 4000
-F 0 "MX?" H 14283 4223 60  0000 C CNN
-F 1 "MX-NoLED" H 14283 4149 20  0000 C CNN
-F 2 "" H 13625 3975 60  0001 C CNN
-F 3 "" H 13625 3975 60  0001 C CNN
-	1    14250 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5E9B5343
@@ -4395,32 +3514,13 @@ F 3 "" H 12975 3225 60  0001 C CNN
 	1    13600 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14450 4700 14450 5450
-Connection ~ 14450 4700
-Wire Wire Line
-	14400 3950 14450 3950
-Connection ~ 14450 3950
-Wire Wire Line
-	14450 3950 14450 4700
 Connection ~ 13550 5900
-Connection ~ 13550 5150
-Connection ~ 13550 4400
 Connection ~ 13550 3650
 Connection ~ 13550 2900
-Connection ~ 13550 2150
 Wire Wire Line
 	12250 5900 13550 5900
 Wire Wire Line
 	12900 5950 14200 5950
-Wire Wire Line
-	12250 5150 13550 5150
-Wire Wire Line
-	12900 5200 14200 5200
-Wire Wire Line
-	12250 4400 13550 4400
-Wire Wire Line
-	12900 4450 14200 4450
 Wire Wire Line
 	12900 3700 14200 3700
 Wire Wire Line
@@ -4433,39 +3533,6 @@ Wire Wire Line
 	12250 2150 13550 2150
 Wire Wire Line
 	12900 2200 14200 2200
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5F1272F7
-P 14900 1750
-F 0 "MX?" H 14933 1973 60  0000 C CNN
-F 1 "MX-NoLED" H 14933 1899 20  0000 C CNN
-F 2 "" H 14275 1725 60  0001 C CNN
-F 3 "" H 14275 1725 60  0001 C CNN
-	1    14900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5F127A23
-P 14850 2000
-F 0 "D?" V 14900 2250 50  0000 R CNN
-F 1 "D_Small" V 14800 2350 50  0000 R CNN
-F 2 "" V 14850 2000 50  0001 C CNN
-F 3 "~" V 14850 2000 50  0001 C CNN
-	1    14850 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14850 2150 14850 2100
-Wire Wire Line
-	13550 2150 14850 2150
-Wire Wire Line
-	15050 1700 15100 1700
-Wire Wire Line
-	15100 1700 15100 1150
-Wire Wire Line
-	15100 1700 15100 3200
-Connection ~ 15100 1700
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 5F30C918
@@ -4512,28 +3579,6 @@ F 1 "D_Small" V 14800 6100 50  0000 R CNN
 F 2 "" V 14850 5750 50  0001 C CNN
 F 3 "~" V 14850 5750 50  0001 C CNN
 	1    14850 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 5F526878
-P 14900 4750
-F 0 "MX?" H 14933 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 14933 4899 20  0000 C CNN
-F 2 "" H 14275 4725 60  0001 C CNN
-F 3 "" H 14275 4725 60  0001 C CNN
-	1    14900 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 5F52687E
-P 14850 5000
-F 0 "D?" V 14900 5250 50  0000 R CNN
-F 1 "D_Small" V 14800 5350 50  0000 R CNN
-F 2 "" V 14850 5000 50  0001 C CNN
-F 3 "~" V 14850 5000 50  0001 C CNN
-	1    14850 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -4593,24 +3638,273 @@ Wire Wire Line
 	15050 3950 15100 3950
 Connection ~ 15100 3950
 Wire Wire Line
-	15100 3950 15100 4700
-Wire Wire Line
 	14850 4350 14850 4400
-Wire Wire Line
-	13550 4400 14850 4400
-Wire Wire Line
-	14850 5100 14850 5150
-Wire Wire Line
-	13550 5150 14850 5150
 Wire Wire Line
 	14850 5850 14850 5900
 Wire Wire Line
 	13550 5900 14850 5900
 Wire Wire Line
 	15050 5450 15100 5450
+Text GLabel 2750 1150 1    50   Input ~ 0
+Col0&1
+Text GLabel 4050 1150 1    50   Input ~ 0
+Col2&3
+Text GLabel 5350 1150 1    50   Input ~ 0
+Col4&5
+Text GLabel 6650 1150 1    50   Input ~ 0
+Col6&7
+Text GLabel 7950 1150 1    50   Input ~ 0
+Col8&9
+Text GLabel 9250 1150 1    50   Input ~ 0
+Col10&11
+Text GLabel 10550 1150 1    50   Input ~ 0
+Col12&13
+Text GLabel 11850 1150 1    50   Input ~ 0
+Col14&15
+Text GLabel 13150 1150 1    50   Input ~ 0
+Col16&17
+Text GLabel 14450 1150 1    50   Input ~ 0
+Col18&19
+Text GLabel 1450 2100 0    50   Input ~ 0
+Row0.1
+Text GLabel 1450 2250 0    50   Input ~ 0
+Row0.2
 Wire Wire Line
-	15050 4700 15100 4700
-Connection ~ 15100 4700
+	1450 2250 1550 2250
 Wire Wire Line
-	15100 4700 15100 5450
+	1550 2250 1550 2200
+Wire Wire Line
+	1550 2150 1550 2100
+Wire Wire Line
+	1550 2100 1450 2100
+Text GLabel 1450 2850 0    50   Input ~ 0
+Row1.1
+Text GLabel 1450 3000 0    50   Input ~ 0
+Row1.2
+Text GLabel 1450 3600 0    50   Input ~ 0
+Row2.1
+Text GLabel 1450 3750 0    50   Input ~ 0
+Row2.2
+Text GLabel 1450 4350 0    50   Input ~ 0
+Row3.1
+Text GLabel 1450 4500 0    50   Input ~ 0
+Row3.2
+Text GLabel 1450 5850 0    50   Input ~ 0
+Row5.1
+Text GLabel 1450 6000 0    50   Input ~ 0
+Row5.2
+Wire Wire Line
+	1450 5850 1550 5850
+Wire Wire Line
+	1550 5850 1550 5900
+Wire Wire Line
+	1450 6000 1550 6000
+Wire Wire Line
+	1550 6000 1550 5950
+Wire Wire Line
+	1450 5100 1550 5100
+Wire Wire Line
+	1550 5100 1550 5150
+Wire Wire Line
+	1450 5250 1550 5250
+Wire Wire Line
+	1550 5250 1550 5200
+Wire Wire Line
+	1450 4500 1550 4500
+Wire Wire Line
+	1550 4500 1550 4450
+Wire Wire Line
+	1450 4350 1550 4350
+Wire Wire Line
+	1550 4350 1550 4400
+Wire Wire Line
+	1450 3750 1550 3750
+Wire Wire Line
+	1550 3750 1550 3700
+Wire Wire Line
+	1450 3600 1550 3600
+Wire Wire Line
+	1550 3600 1550 3650
+Wire Wire Line
+	1450 3000 1550 3000
+Wire Wire Line
+	1550 3000 1550 2950
+Wire Wire Line
+	1850 2900 1550 2900
+Wire Wire Line
+	1550 2900 1550 2850
+Wire Wire Line
+	1550 2850 1450 2850
+Wire Wire Line
+	2100 1400 2100 2450
+Wire Wire Line
+	1550 2150 3150 2150
+Wire Wire Line
+	2750 1400 2750 2450
+Wire Wire Line
+	1550 2200 5100 2200
+Wire Wire Line
+	4050 1400 4050 2450
+Wire Wire Line
+	8350 2150 10950 2150
+Wire Wire Line
+	9900 1400 9900 2450
+Wire Wire Line
+	15100 1150 15100 3200
+Wire Wire Line
+	12250 4400 14850 4400
+Wire Wire Line
+	13800 3200 13800 4700
+Wire Wire Line
+	13150 3200 13150 5450
+Wire Wire Line
+	14450 3200 14450 5450
+Wire Wire Line
+	15100 3950 15100 5450
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5E87D131
+P 3200 2500
+F 0 "MX?" H 3233 2723 60  0000 C CNN
+F 1 "MX-NoLED" H 3233 2649 20  0000 C CNN
+F 2 "" H 2575 2475 60  0001 C CNN
+F 3 "" H 2575 2475 60  0001 C CNN
+	1    3200 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 5100 0    50   Input ~ 0
+Row4.1
+Text GLabel 1450 5250 0    50   Input ~ 0
+Row4.2
+Connection ~ 4050 3950
+Wire Wire Line
+	4000 3950 4050 3950
+Wire Wire Line
+	4050 3200 4050 3950
+Wire Wire Line
+	4050 2450 4050 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4000 3200 4050 3200
+Wire Wire Line
+	3800 3700 5100 3700
+Wire Wire Line
+	2500 3700 3800 3700
+Connection ~ 3800 3700
+Wire Wire Line
+	3800 3600 3800 3700
+Wire Wire Line
+	3800 4450 5100 4450
+Wire Wire Line
+	2500 4450 3800 4450
+Connection ~ 3800 4450
+Wire Wire Line
+	3800 4350 3800 4450
+Wire Wire Line
+	3800 5200 5100 5200
+Wire Wire Line
+	2500 5200 3800 5200
+Connection ~ 3800 5200
+Wire Wire Line
+	3800 5100 3800 5200
+Wire Wire Line
+	4050 3950 4050 4700
+Wire Wire Line
+	4000 4700 4050 4700
+$Comp
+L Device:D_Small D?
+U 1 1 5E87D0DD
+P 3800 5000
+F 0 "D?" V 3850 5250 50  0000 R CNN
+F 1 "D_Small" V 3750 5350 50  0000 R CNN
+F 2 "" V 3800 5000 50  0001 C CNN
+F 3 "~" V 3800 5000 50  0001 C CNN
+	1    3800 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5E87D106
+P 3850 4750
+F 0 "MX?" H 3883 4973 60  0000 C CNN
+F 1 "MX-NoLED" H 3883 4899 20  0000 C CNN
+F 2 "" H 3225 4725 60  0001 C CNN
+F 3 "" H 3225 4725 60  0001 C CNN
+	1    3850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5E87D0C9
+P 3800 4250
+F 0 "D?" V 3850 4500 50  0000 R CNN
+F 1 "D_Small" V 3750 4600 50  0000 R CNN
+F 2 "" V 3800 4250 50  0001 C CNN
+F 3 "~" V 3800 4250 50  0001 C CNN
+	1    3800 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5E87D11E
+P 3850 4000
+F 0 "MX?" H 3883 4223 60  0000 C CNN
+F 1 "MX-NoLED" H 3883 4149 20  0000 C CNN
+F 2 "" H 3225 3975 60  0001 C CNN
+F 3 "" H 3225 3975 60  0001 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5E87D0BB
+P 3800 3500
+F 0 "D?" V 3850 3750 50  0000 R CNN
+F 1 "D_Small" V 3750 3850 50  0000 R CNN
+F 2 "" V 3800 3500 50  0001 C CNN
+F 3 "~" V 3800 3500 50  0001 C CNN
+	1    3800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5E87D124
+P 3850 3250
+F 0 "MX?" H 3883 3473 60  0000 C CNN
+F 1 "MX-NoLED" H 3883 3399 20  0000 C CNN
+F 2 "" H 3225 3225 60  0001 C CNN
+F 3 "" H 3225 3225 60  0001 C CNN
+	1    3850 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 15100 1150 1    50   Input ~ 0
+Col20
+Wire Wire Line
+	1850 4400 4450 4400
+Wire Wire Line
+	1850 3650 4450 3650
+Wire Wire Line
+	3400 2450 3400 5450
+Wire Wire Line
+	2500 5950 5100 5950
+Wire Wire Line
+	1850 5150 5750 5150
+Wire Wire Line
+	4700 3950 4700 5450
+Wire Wire Line
+	5100 5950 7700 5950
+Wire Wire Line
+	4450 5900 9650 5900
+Wire Wire Line
+	7700 5950 11600 5950
+Wire Wire Line
+	11850 1700 11850 3200
+Wire Wire Line
+	10300 2950 12900 2950
+Wire Wire Line
+	11850 3200 11850 4700
+Wire Wire Line
+	10950 5150 13550 5150
+Wire Wire Line
+	12500 3950 12500 5450
 $EndSCHEMATC
