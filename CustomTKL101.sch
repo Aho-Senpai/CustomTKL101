@@ -435,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 8200 4500 8200
 Text GLabel 4500 8200 0    50   Input ~ 0
-DB-
+D-
 $Comp
 L Device:R_Small R?
 U 1 1 5E49D3FD
@@ -457,7 +457,7 @@ Connection ~ 5300 8000
 Wire Wire Line
 	5300 8000 5350 8000
 Text GLabel 4500 8000 0    50   Input ~ 0
-DB+
+D+
 Wire Wire Line
 	4500 8000 4800 8000
 $Comp
