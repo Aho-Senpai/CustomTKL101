@@ -411,7 +411,7 @@ F 3 "" H 5150 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 8700 5350 8700
+	5150 8700 5250 8700
 $Comp
 L Device:R_Small R6
 U 1 1 5E496C33
@@ -512,33 +512,6 @@ F 1 "GND" H 4350 7500 50  0000 C CNN
 F 2 "" H 4450 7600 50  0001 C CNN
 F 3 "" H 4450 7600 50  0001 C CNN
 	1    4450 7600
-	1    0    0    -1  
-$EndComp
-Connection ~ 4500 7600
-Wire Wire Line
-	4500 7600 4450 7600
-Wire Wire Line
-	4800 7600 4500 7600
-$Comp
-L Device:R_Small R2
-U 1 1 5E4AC4C3
-P 4500 7500
-F 0 "R2" H 4300 7600 50  0000 L CNN
-F 1 "1.5k" H 4300 7500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4500 7500 50  0001 C CNN
-F 3 "~" H 4500 7500 50  0001 C CNN
-	1    4500 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0114
-U 1 1 5E4AFBE5
-P 4500 7400
-F 0 "#PWR0114" H 4500 7250 50  0001 C CNN
-F 1 "+5V" H 4515 7573 50  0000 C CNN
-F 2 "" H 4500 7400 50  0001 C CNN
-F 3 "" H 4500 7400 50  0001 C CNN
-	1    4500 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3746,7 +3719,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 1400 9900 2450
 Wire Wire Line
-	15100 1150 15100 3200
+	15100 1150 15100 2450
 Wire Wire Line
 	12250 4400 14850 4400
 Wire Wire Line
@@ -3907,4 +3880,66 @@ Wire Wire Line
 	4050 9650 3400 9650
 Wire Wire Line
 	4250 9650 4500 9650
+Wire Wire Line
+	5350 8600 5250 8600
+Wire Wire Line
+	5250 8600 5250 8700
+Connection ~ 5250 8700
+Wire Wire Line
+	5250 8700 5350 8700
+Wire Wire Line
+	4450 7600 4800 7600
+Wire Wire Line
+	15050 2450 15100 2450
+Connection ~ 15100 2450
+Wire Wire Line
+	15100 2450 15100 3200
+Text GLabel 3400 9950 2    50   Input ~ 0
+Col0&1
+Text GLabel 3400 8750 2    50   Input ~ 0
+Col20
+Text GLabel 3400 8850 2    50   Input ~ 0
+Col18&19
+Text GLabel 3400 8950 2    50   Input ~ 0
+Col16&17
+Text GLabel 3400 9050 2    50   Input ~ 0
+Col14&15
+Text GLabel 3400 9250 2    50   Input ~ 0
+Col12&13
+Text GLabel 3400 8250 2    50   Input ~ 0
+Col10&11
+Text GLabel 3400 7850 2    50   Input ~ 0
+Col8&9
+Text GLabel 3400 7750 2    50   Input ~ 0
+Col6&7
+Text GLabel 3400 7650 2    50   Input ~ 0
+Col4&5
+Text GLabel 3400 7550 2    50   Input ~ 0
+Col2&3
+Text GLabel 3500 9750 2    50   Input ~ 0
+NOTOUCH
+Text GLabel 3400 9150 2    50   Input ~ 0
+Row0.1
+Text GLabel 3400 9350 2    50   Input ~ 0
+Row0.2
+Text GLabel 3400 10050 2    50   Input ~ 0
+Row1.1
+Text GLabel 3400 10150 2    50   Input ~ 0
+Row2.1
+Text GLabel 3400 10250 2    50   Input ~ 0
+Row3.1
+Text GLabel 3400 10350 2    50   Input ~ 0
+Row4.1
+Text GLabel 3400 10450 2    50   Input ~ 0
+Row5.1
+Text GLabel 3400 8550 2    50   Input ~ 0
+Row1.2
+Text GLabel 3400 8450 2    50   Input ~ 0
+Row2.2
+Text GLabel 3400 8150 2    50   Input ~ 0
+Row3.2
+Text GLabel 3400 8050 2    50   Input ~ 0
+Row4.2
+Text GLabel 3400 7950 2    50   Input ~ 0
+Row5.2
 $EndSCHEMATC
