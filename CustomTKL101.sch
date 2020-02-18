@@ -1789,7 +1789,7 @@ U 1 1 5E8CBAD9
 P 7750 5500
 F 0 "MX93" H 7783 5723 60  0000 C CNN
 F 1 "MX-NoLED" H 7783 5649 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7125 5475 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-ReversedStabilizers-NoLED" H 7125 5475 60  0001 C CNN
 F 3 "" H 7125 5475 60  0001 C CNN
 	1    7750 5500
 	1    0    0    -1  
@@ -2790,7 +2790,7 @@ U 1 1 5E94032B
 P 11650 4750
 F 0 "MX86" H 11683 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 11683 4899 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11025 4725 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.75U-ReversedStabilizers-NoLED" H 11025 4725 60  0001 C CNN
 F 3 "" H 11025 4725 60  0001 C CNN
 	1    11650 4750
 	1    0    0    -1  
@@ -3091,7 +3091,7 @@ U 1 1 5E977324
 P 12300 4000
 F 0 "MX71" H 12333 4223 60  0000 C CNN
 F 1 "MX-NoLED" H 12333 4149 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11675 3975 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-ReversedStabilizers-NoLED" H 11675 3975 60  0001 C CNN
 F 3 "" H 11675 3975 60  0001 C CNN
 	1    12300 4000
 	1    0    0    -1  
@@ -3130,7 +3130,7 @@ U 1 1 5E977343
 P 12300 2500
 F 0 "MX32" H 12333 2723 60  0000 C CNN
 F 1 "MX-NoLED" H 12333 2649 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11675 2475 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 11675 2475 60  0001 C CNN
 F 3 "" H 11675 2475 60  0001 C CNN
 	1    12300 2500
 	1    0    0    -1  
@@ -3504,7 +3504,7 @@ U 1 1 5F4E25E1
 P 14900 5500
 F 0 "MX101" H 14933 5723 60  0000 C CNN
 F 1 "MX-NoLED" H 14933 5649 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14275 5475 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED" H 14275 5475 60  0001 C CNN
 F 3 "" H 14275 5475 60  0001 C CNN
 	1    14900 5500
 	1    0    0    -1  
@@ -3767,7 +3767,7 @@ U 1 1 5E87D106
 P 3850 4750
 F 0 "MX75" H 3883 4973 60  0000 C CNN
 F 1 "MX-NoLED" H 3883 4899 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3225 4725 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-ReversedStabilizers-NoLED" H 3225 4725 60  0001 C CNN
 F 3 "" H 3225 4725 60  0001 C CNN
 	1    3850 4750
 	1    0    0    -1  
@@ -3866,26 +3866,6 @@ Wire Wire Line
 	15100 2450 15100 3200
 Text GLabel 3400 9950 2    50   Input ~ 0
 Col0&1
-Text GLabel 3400 8750 2    50   Input ~ 0
-Col20
-Text GLabel 3400 8850 2    50   Input ~ 0
-Col18&19
-Text GLabel 3400 8950 2    50   Input ~ 0
-Col16&17
-Text GLabel 3400 9050 2    50   Input ~ 0
-Col14&15
-Text GLabel 3400 9250 2    50   Input ~ 0
-Col12&13
-Text GLabel 3400 8250 2    50   Input ~ 0
-Col10&11
-Text GLabel 3400 7850 2    50   Input ~ 0
-Col8&9
-Text GLabel 3400 7750 2    50   Input ~ 0
-Col6&7
-Text GLabel 3400 7650 2    50   Input ~ 0
-Col4&5
-Text GLabel 3400 7550 2    50   Input ~ 0
-Col2&3
 Text GLabel 3400 9150 2    50   Input ~ 0
 Row0.1
 Text GLabel 3400 9350 2    50   Input ~ 0
@@ -3914,4 +3894,24 @@ Wire Wire Line
 	4500 8000 5300 8000
 Wire Wire Line
 	4500 8200 5300 8200
+Text GLabel 3400 7550 2    50   Input ~ 0
+Col20
+Text GLabel 3400 7650 2    50   Input ~ 0
+Col18&19
+Text GLabel 3400 7750 2    50   Input ~ 0
+Col16&17
+Text GLabel 3400 7850 2    50   Input ~ 0
+Col14&15
+Text GLabel 3400 9450 2    50   Input ~ 0
+Col12&13
+Text GLabel 3400 9250 2    50   Input ~ 0
+Col10&11
+Text GLabel 3400 9050 2    50   Input ~ 0
+Col8&9
+Text GLabel 3400 8950 2    50   Input ~ 0
+Col6&7
+Text GLabel 3400 8850 2    50   Input ~ 0
+Col4&5
+Text GLabel 3400 8750 2    50   Input ~ 0
+Col2&3
 $EndSCHEMATC
